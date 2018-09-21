@@ -1,0 +1,30 @@
+.btn {
+  border-radius: 20px;
+  padding: 0px 30px;
+}
+
+.btn-itau {
+  border-color: #fff;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.header-itau {
+  width: 100%;
+  background-image: linear-gradient(to right, #FF7300 , #FFA600);
+  box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.15);
+  position: fixed; 
+}
+
+.header-transparent {
+  width: 100%;
+  background: transparent;
+  position: fixed; 
+}
+
+.slider {
+  width: 100%;
+  height: 500px;
+  background-image: url('/assets/slider.jpg');
+  background-position: 50% 50%;
+}
