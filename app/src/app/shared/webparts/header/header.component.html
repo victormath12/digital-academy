@@ -1,6 +1,6 @@
 <header class="campus-header--{{ type }}">
   <div class="branding">
-    <a href="..." class="nav-link">
+    <a href="#" class="nav-link" [routerLink]="['/']">
       <clr-icon shape="vm-bug"></clr-icon>
       <span class="title">Campus</span>
     </a>
@@ -12,8 +12,8 @@
   </div>
 
   <div class="header-actions">
-    <button class="btn campus-btn--white">minha conta</button>
-    <a href="..." class="nav-link nav-icon">
+    <button class="btn campus-btn--white" [routerLink]="['/usuario']">minha conta</button>
+    <a href="#" class="nav-link nav-icon">
       <clr-icon shape="user"></clr-icon>
     </a>
   </div>

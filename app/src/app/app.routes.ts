@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'aula-detalhe',
     loadChildren: 'src/app/pages/lesson-detail/lesson-detail.module#LessonDetailModule'
+  },
+  {
+    path: 'usuario',
+    loadChildren: 'src/app/pages/user-account/user-account.module#UserAccountModule'
   }
 ];
 

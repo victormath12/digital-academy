@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CourseDetailComponent implements OnInit {
 
+  playerModalOpen: boolean = false;
+
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  onStartLessonClick() {
+    this.playerModalOpen = !this.playerModalOpen;
   }
 
 }

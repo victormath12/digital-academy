@@ -1,0 +1,25 @@
+<clr-wizard #uploadModal [(clrWizardOpen)]="open">
+
+  <clr-wizard-title>Publicar Aula</clr-wizard-title>
+
+  <clr-wizard-button [type]="'cancel'">Cancelar</clr-wizard-button>
+  <clr-wizard-button [type]="'previous'">Voltar</clr-wizard-button>
+  <clr-wizard-button [type]="'next'">Próximo</clr-wizard-button>
+  <clr-wizard-button [type]="'finish'">Publicar</clr-wizard-button>
+
+  <clr-wizard-page>
+    <ng-template clrPageTitle>Informações essenciais</ng-template>
+      ...
+  </clr-wizard-page>
+
+  <clr-wizard-page>
+    <ng-template clrPageTitle>Upload do arquivo</ng-template>
+      ...
+  </clr-wizard-page>
+
+  <clr-wizard-page>
+    <ng-template clrPageTitle>Ajustes finos</ng-template>
+      ...
+  </clr-wizard-page>
+
+</clr-wizard>

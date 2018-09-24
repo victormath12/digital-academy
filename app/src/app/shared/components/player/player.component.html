@@ -1,0 +1,35 @@
+<clr-wizard #playerModal [(clrWizardOpen)]="open">
+
+  <clr-wizard-title>Aulas do Curso</clr-wizard-title>
+  <clr-wizard-button [type]="'cancel'">Cancelar</clr-wizard-button>
+  <clr-wizard-button [type]="'previous'">Voltar</clr-wizard-button>
+  <clr-wizard-button [type]="'next'">Próximo</clr-wizard-button>
+  <clr-wizard-button [type]="'finish'">Publicar</clr-wizard-button>
+
+  <clr-wizard-page>
+    <ng-template clrPageTitle>Introdução ao Angular Framework</ng-template>
+    <div class="col-xs-12">
+      <video class="video-control" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML5 video.
+      </video>  
+      <p>Normal The Normal type is the most basic type of Pokémon. They are very common and Normal
+        The Normal type is the most basic type of Pokémon....</p>   
+    </div>
+  </clr-wizard-page>
+
+  <clr-wizard-page>
+    <ng-template clrPageTitle>Voxel.ds Components</ng-template>
+    <div class="col-xs-12">
+      <video class="video-control" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML5 video.
+      </video>  
+      <p>Normal The Normal type is the most basic type of Pokémon. They are very common and Normal
+        The Normal type is the most basic type of Pokémon....</p>   
+    </div>
+  </clr-wizard-page>
+
+</clr-wizard>

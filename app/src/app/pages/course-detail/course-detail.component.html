@@ -1,6 +1,9 @@
 <campus-header type="cyan"></campus-header>
 <campus-page-title label="Desenvolvimento com Angular 6"></campus-page-title>
 
+<!-- Upload Modal -->
+<campus-player [open]="playerModalOpen"></campus-player>
+
 <section class="content-container">
   <div class="content-area">
 
@@ -13,10 +16,8 @@
             <clr-tab-content id="content1" *clrIfActive="true">
 
               <p><strong>Labels:</strong> &nbsp;
-                <span class="label label-info clickable">Novo Curso</span>
-                <span class="label label-info clickable">Novo Curso</span>
-                <span class="label label-info clickable">Novo Curso</span>
-                <span class="label label-info clickable">Novo Curso</span>
+                <span class="label label-info clickable" [routerLink]="['/cursos']">App Mobile</span>
+                <span class="label label-info clickable" [routerLink]="['/cursos']">Design System</span>
               </p>
         
               <p>Normal The Normal type is the most basic type of Pokémon. They are very common and Normal
@@ -99,7 +100,7 @@
                 </span>
               </div>
             </div>
-            <button class="btn btn-primary btn-block" [routerLink]="['/aula-detalhe']">
+            <button class="btn btn-primary btn-block" (click)="onStartLessonClick()">
               <clr-icon shape="play" class="is-solid"></clr-icon> 
                 &nbsp;Iniciar o Curso
             </button>

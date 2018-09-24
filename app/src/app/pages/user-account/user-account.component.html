@@ -1,0 +1,55 @@
+<campus-header type="orange"></campus-header>
+<campus-page-title label="Victor Matheus Jesus Caetano"></campus-page-title>
+
+<section class="content-container">
+
+  <section class="content-area">
+    <h2><span class="text--bold">Minha Conta</span></h2>
+    <section class="card">
+      <div class="card-block">
+        <div class="card-media-block">
+          <img src="https://avatars2.githubusercontent.com/u/11219999?s=400&u=c75e0601c2c9a64439903662b8f370faa67c6d80&v=4" class="card-media-image">
+          <div class="card-media-description">
+            <span class="card-media-title">Victor Matheus Jesus Caetano</span>
+            <span class="card-media-text">Software Developer</span>
+          </div>
+        </div>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Idade: 22 Anos</li>
+        <li class="list-group-item">Escolaridade: Superior Completo</li>
+        <li class="list-group-item">Skills: Front-End</li>
+      </ul>
+      <div class="card-footer">
+        <a class="btn btn-primary">Editar</a>
+      </div>
+    </section>
+  </section>
+
+  <!-- Upload Modal -->
+  <campus-upload [open]="uploadModalOpen"></campus-upload>
+
+  <clr-vertical-nav>
+    <a clrVerticalNavLink routerLink="./normal" routerLinkActive="active">
+      <clr-icon clrVerticalNavIcon shape="user"></clr-icon>
+      Minha Conta
+    </a>
+    <a clrVerticalNavLink routerLink="./electric" routerLinkActive="active">
+      <clr-icon clrVerticalNavIcon shape="bolt"></clr-icon>
+      Minhas publicações
+    </a>
+    <a clrVerticalNavLink (click)="onUploadButtonClick()">
+      <clr-icon clrVerticalNavIcon shape="upload"></clr-icon>
+      Publicar aula
+    </a>
+    <a clrVerticalNavLink routerLink="./credit" routerLinkActive="active">
+      <clr-icon clrVerticalNavIcon shape="certificate"></clr-icon>
+      Meus Aprendizados
+    </a>
+    <a clrVerticalNavLink routerLink="./poison" routerLinkActive="active">
+      <clr-icon clrVerticalNavIcon shape="left"></clr-icon>
+      Sair da conta
+    </a>
+  </clr-vertical-nav>
+
+</section>
