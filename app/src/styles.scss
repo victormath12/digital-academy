@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/styles/colors.scss';
+@import './assets/styles/buttons.scss';
+@import './assets/styles/typography.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.campus-body {
+  background: $color-snow;
+}
+
+.main-container { background: none; }

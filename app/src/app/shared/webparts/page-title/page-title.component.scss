@@ -1,0 +1,19 @@
+@import '../../../../styles.scss';
+
+.page-title {
+  width: 100%;
+  padding: 5rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  background: $color-black;
+
+  .title-content {
+    .main-title {
+      text-align: center;
+      font-weight: 400;
+      color: $color-white
+    }
+  }
+}

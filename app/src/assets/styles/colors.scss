@@ -1,0 +1,21 @@
+/**
+* Colors Variables
+*/
+$color-white: #FFFFFF;
+$color-snow: #EEEEEE;
+$color-black: #333333;
+$color-orange: #FF7300;
+$color-orange-hover: #FFA600;
+$color-cyan: #00FFFF;
+$color-cyan-secondary: #008B8B;
+$color-cyan-hover: #00B7EB;
+
+
+/**
+* Colors Classes
+*/
+.color-white { color: $color-white }
+.color-black { color: $color-black }
+.color-orange { color: $color-orange }
+.color-orange-hover { color: $color-orange-hover }
+
